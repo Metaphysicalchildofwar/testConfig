@@ -2,10 +2,14 @@ openapi: 3.0.0
 info:
   title: Book API
   version: 1.0.0
-paths:
-  /books:
-    get:
-      summary: Retrieves a list of books
-      responses:
-        '200':
-          description: A list of books.
+components:
+  schemas:
+    Book:
+      type: object
+      properties:
+        id:
+          type: string
+        title:
+          type: string
+        author:
+          type: string
