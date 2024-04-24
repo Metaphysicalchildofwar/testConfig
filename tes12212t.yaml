@@ -17,3 +17,7 @@ components:
           type: string
         author:
           type: string
+          x-code-samples:
+            lang: "CSharp", 
+            source: "console.log('Hello World');"
+        }
