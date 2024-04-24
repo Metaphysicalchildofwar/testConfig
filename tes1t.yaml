@@ -5,11 +5,11 @@ info:
 components:
   schemas:
     Book:
-    tag:
-        description: |
-        ОПИСАНИЕ КЛАССА
       type: object
       properties:
+        tag:
+          description: |
+          ОПИСАНИЕ КЛАССА
         id:
           type: string
         title:
