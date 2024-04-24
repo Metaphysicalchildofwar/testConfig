@@ -6,7 +6,8 @@ components:
   schemas:
     Book:
     tag:
-        description: ОПИСАНИЕ КЛАССА
+        description: |
+        ОПИСАНИЕ КЛАССА
       type: object
       properties:
         id:
