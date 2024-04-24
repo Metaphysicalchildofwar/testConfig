@@ -7,8 +7,9 @@ components:
     Book:
       type: object
       properties:
-        tag:
+        tag_name:
           description: sadasd
+          type: string
         id:
           type: string
         title:
