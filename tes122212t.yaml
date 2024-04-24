@@ -20,4 +20,3 @@ components:
           x-code-samples:
             lang: "CSharp", 
             source: "console.log('Hello World');"
-        }
