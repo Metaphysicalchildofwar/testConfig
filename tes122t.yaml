@@ -18,5 +18,5 @@ components:
         author:
           type: string
           x-code-samples:
-            lang: "CSharp", 
+            lang: "CSharp" 
             source: "console.log('Hello World');"
