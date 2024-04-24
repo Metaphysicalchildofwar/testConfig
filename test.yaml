@@ -1,0 +1,18 @@
+openapi: 3.0.0
+info:
+  title: Book API
+  version: 1.0.0
+components:
+  schemas:
+    Book:
+    tag:
+        description: |
+        ОПИСАНИЕ КЛАССА
+      type: object
+      properties:
+        id:
+          type: string
+        title:
+          type: string
+        author:
+          type: string
