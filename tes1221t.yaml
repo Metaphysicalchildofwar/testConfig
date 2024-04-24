@@ -11,6 +11,7 @@ components:
           description: sadasd
           type: string
         id:
+          x-id: true
           type: string
         title:
           type: string
