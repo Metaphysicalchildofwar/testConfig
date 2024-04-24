@@ -8,8 +8,7 @@ components:
       type: object
       properties:
         tag:
-          description: |
-          ОПИСАНИЕ КЛАССА
+          description: sadasd
         id:
           type: string
         title:
