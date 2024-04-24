@@ -5,6 +5,8 @@ info:
 components:
   schemas:
     Book:
+    tag:
+        description: ОПИСАНИЕ КЛАССА
       type: object
       properties:
         id:
