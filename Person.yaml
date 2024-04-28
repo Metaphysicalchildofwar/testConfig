@@ -1,0 +1,32 @@
+openapi: 3.0.1
+info:
+  title: Entities Test
+  description: ''
+  version: 1.0.0
+tags: []
+paths: {}
+components:
+  schemas:
+    PersonEntity:
+      type: object
+      description: Модель человека,
+      properties:
+        id:
+          type: integer
+          description: Идентификатор
+          x-id: true
+        name:
+          type: string
+          description: Имя
+        family:
+          type: string
+          description: Фамилия
+        age:
+          type: integer
+          description: Возраст
+      required:
+        - id
+        - name
+        - description
+  securitySchemes: {}
+servers: []
