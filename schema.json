@@ -1,19 +1,49 @@
 {
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "User",
-  "type": "object",
-  "properties": {
-    "name": {
-      "type": "string",
-      "minLength": 2,
-      "nullable": true
-    },
-    "age": {
-      "type": "integer"
-    }
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Тест генерации моделей Entity",
+    "description": "",
+    "version": "1.0.0"
   },
-  "required": [
-    "name",
-    "age"
-  ]
+  "tags": [],
+  "paths": {},
+  "components": {
+    "schemas": {
+      "PersonEntity": {
+        "type": "object",
+        "description": "Человек",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "description": "Идентификатор"
+          },
+          "name": {
+            "type": "string",
+            "description": "Имя",
+            "minLength": 2
+          },
+          "patronymic": {
+            "type": "string",
+            "description": "Отчество"
+          },
+          "family": {
+            "type": "string",
+            "description": "Фамилия"
+          },
+          "age": {
+            "type": "integer",
+            "description": "Возраст"
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "family",
+          "age"
+        ]
+      }
+    },
+    "securitySchemes": {}
+  },
+  "servers": []
 }
